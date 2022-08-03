@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lblcripto = new System.Windows.Forms.Label();
             this.lbldescrip = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tbfrase
@@ -48,9 +49,9 @@
             // btnCriptografar
             // 
             this.btnCriptografar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCriptografar.Location = new System.Drawing.Point(344, 106);
+            this.btnCriptografar.Location = new System.Drawing.Point(341, 93);
             this.btnCriptografar.Name = "btnCriptografar";
-            this.btnCriptografar.Size = new System.Drawing.Size(108, 48);
+            this.btnCriptografar.Size = new System.Drawing.Size(105, 38);
             this.btnCriptografar.TabIndex = 2;
             this.btnCriptografar.Text = "Criptografar";
             this.btnCriptografar.UseVisualStyleBackColor = true;
@@ -69,9 +70,9 @@
             // btnDescriptografar
             // 
             this.btnDescriptografar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDescriptografar.Location = new System.Drawing.Point(330, 236);
+            this.btnDescriptografar.Location = new System.Drawing.Point(331, 273);
             this.btnDescriptografar.Name = "btnDescriptografar";
-            this.btnDescriptografar.Size = new System.Drawing.Size(137, 48);
+            this.btnDescriptografar.Size = new System.Drawing.Size(128, 38);
             this.btnDescriptografar.TabIndex = 4;
             this.btnDescriptografar.Text = "Descriptografar";
             this.btnDescriptografar.UseVisualStyleBackColor = true;
@@ -117,11 +118,20 @@
             this.lbldescrip.TabIndex = 8;
             this.lbldescrip.Text = "-";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(211, 141);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(383, 121);
+            this.textBox1.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(643, 353);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbldescrip);
             this.Controls.Add(this.lblcripto);
             this.Controls.Add(this.label3);
@@ -147,5 +157,6 @@
         private Label label3;
         private Label lblcripto;
         private Label lbldescrip;
+        private TextBox textBox1;
     }
 }

@@ -1,1 +1,2 @@
-# Criptografia
+# Criptografia Assimétrica
+Algoritmo utilizado: RSA
